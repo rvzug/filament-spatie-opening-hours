@@ -2,9 +2,9 @@
 
 namespace Rvzug\FilamentSpatieOpeningHours;
 
+use Rvzug\FilamentSpatieOpeningHours\Commands\FilamentSpatieOpeningHoursCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Rvzug\FilamentSpatieOpeningHours\Commands\FilamentSpatieOpeningHoursCommand;
 
 class FilamentSpatieOpeningHoursServiceProvider extends PackageServiceProvider
 {
