@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Rvzug\FilamentSpatieOpeningHours;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use Rvzug\FilamentSpatieOpeningHours\Commands\FilamentSpatieOpeningHoursCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class FilamentSpatieOpeningHoursServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('filament-spatie-opening-hours')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_migration_table_name_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_filament_spatie_opening_hours_table')
+            ->hasCommand(FilamentSpatieOpeningHoursCommand::class);
     }
 }

@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Rvzug\FilamentSpatieOpeningHours\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentSpatieOpeningHoursCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-spatie-opening-hours';
 
     public $description = 'My command';
 
