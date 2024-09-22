@@ -19,7 +19,6 @@ class FilamentSpatieOpeningHoursServiceProvider extends PackageServiceProvider
             ->name('filament-spatie-opening-hours')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_filament_spatie_opening_hours_table')
-            ->hasCommand(FilamentSpatieOpeningHoursCommand::class);
+            ->hasMigration('create_filament_spatie_opening_hours_table');
     }
 }
