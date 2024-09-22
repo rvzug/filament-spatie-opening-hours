@@ -4,7 +4,6 @@ namespace Rvzug\FilamentSpatieOpeningHours;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Rvzug\FilamentSpatieOpeningHours\Commands\FilamentSpatieOpeningHoursCommand;
 
 class FilamentSpatieOpeningHoursServiceProvider extends PackageServiceProvider
 {
